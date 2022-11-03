@@ -1,0 +1,4 @@
+import readtime
+
+    def readtime(self):
+        return readtime.of_text(self.content).seconds + readtime.of_text(self.abstract).seconds
